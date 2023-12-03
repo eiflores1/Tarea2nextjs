@@ -9,11 +9,11 @@ export default function Home() {
   const [error, setError] = useState('');
 
   const handleLogin = () => {
-    if (username === 'admin' && password === 'admin') {
-      // loggin y dar paso a la siguiente tabla
+    if (username === '123' && password === '123') {
+      // loggin y dar paso a la otra tabla
       window.location.href = '/Table';
     } else {
-      setError('Credenciales incorrectas. Por favor, inténtalo de nuevo.');
+      setError('Clave incorrecta. Inténtalo de nuevo.');
     }
   };
 
