@@ -1,18 +1,22 @@
+/* Contenedor principal */
 .contenedor {
-  max-width: 800px;
+  max-width: 400px;
   margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: aqua;
+  padding: 15px; /* Aumenté el espacio interno */
+  border: 1px solid #3a3a3a;
+  border-radius: 8px; /* Bordes más redondeados */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Sutil aumento en la sombra */
+  background-color: #006400; /* Verde oscuro */
   font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* Texto blanco para mayor contraste */
 }
 
+/* Títulos */
 h1, h2 {
-  color: #333;
+  color: #ffffff; /* Texto blanco */
 }
 
+/* Tablas */
 table {
   width: 100%;
   margin-top: 20px;
@@ -20,98 +24,79 @@ table {
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
+  border: 1px solid #2e2e2e;
+  padding: 8px; /* Mayor espacio interno */
   text-align: left;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #4f4f4f;
+  color: #ffffff; /* Texto blanco */
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #666666;
 }
 
+/* Divs */
 div > div {
-  margin-bottom: 15px;
+  margin-bottom: 10px; /* Mayor espacio entre divs */
 }
 
+/* Etiquetas */
 label {
-  display: inline-block;
-  width: 120px;
+  display: block;
+  margin-bottom: 8px; /* Espacio más pequeño entre etiquetas */
   font-weight: bold;
+  color: #ffffff;
 }
 
+/* Inputs */
 input {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 10px;
   box-sizing: border-box;
+  border: 1px solid #2e2e2e;
+  border-radius: 4px;
 }
 
-button {
-  background-color: #4caf50;
-  color: #fff;
+/* Botones */
+button, button2 {
+  background-color: #006400;
+  color: #ffffff;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+button:hover, button2:hover {
+  background-color: #004d00;
 }
 
+/* Contenedor secundario */
 .contenedor2 {
-  max-width: 400px;
+  max-width: 200px;
   margin: 50px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: rgb(7, 144, 154);
+  padding: 15px;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  background-color: #047a82;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 16px;
+  color: #ffffff;
 }
 
+/* Títulos secundarios */
 h3 {
-  color: #333;
+  color: #ffffff;
 }
 
-div3, div4 {
-  margin-bottom: 15px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: #555;
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-}
-
-button2 {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button2:hover {
-  background-color: #45a049;
-}
-
+/* Párrafos */
 p {
-  color: red;
+  color: #cc0000;
 }
